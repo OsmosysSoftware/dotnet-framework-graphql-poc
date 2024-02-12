@@ -19,7 +19,7 @@ This guide covers integrating GraphQL into a .NET Framework Project.
 
    - Add GraphQL and other related packages to your project.
    - Used Package in this implementation
-     ![Example Image](./images/package.png)
+     ![Example Image](./Images/package.png)
 
 3. **Create GraphQL Schema:**
 
@@ -207,4 +207,4 @@ This guide covers integrating GraphQL into a .NET Framework Project.
 ### Test using Postman:
 
 - Use Postman to send GraphQL queries to your endpoint and verify the responses.
-  ![Example Image](./images/postman.png)
+  ![Example Image](./Images/postman.png)
