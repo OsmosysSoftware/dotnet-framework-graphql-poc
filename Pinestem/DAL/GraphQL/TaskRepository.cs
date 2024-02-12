@@ -19,7 +19,7 @@ namespace DAL.GraphQL
         }
         public IEnumerable<TaskDetails> GetAll()
         {
-            var connectionString = "Server=10.0.0.22;database=ps_latest;Uid=ps_user;Pwd=Password;Port=3306;SslMode=none";
+            var connectionString = "Server=xxx;database=xxx;Uid=xxx;Pwd=xxx;Port=3306;SslMode=none";
 
             using (var db = new MySqlConnection(connectionString))
             {
@@ -61,13 +61,13 @@ namespace DAL.GraphQL
             }*/
 
         public TaskDetails GetById(int id)
+        {
+            return new TaskDetails
             {
-                return new TaskDetails
-                {
-                    TaskID = 1,
-                    TaskName = "1101",
-                    ProjectCode = "Stenhagen"
-                };
-            }
+                TaskID = 1,
+                TaskName = "1101",
+                ProjectCode = "Stenhagen"
+            };
         }
+    }
 }
